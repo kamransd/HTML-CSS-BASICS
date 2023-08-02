@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Background Color & Shadow</title>
+	<style type="text/css">
+		.main{
+			width: 500px;
+			height: 500px; border: 2px solid black;
+			font-size: 100px;
+			color:white;
+			margin: auto;
+			text-align: center;
+			/*
+			   red= r= 0 - 255
+			   green= g= 0 - 255
+			   blue= b= 0 - 255
+			   alpha= a= 0-1 ,0.1,0.2, 0.25
+			*/
+             /*rgb color*/
+			background-color:rgb(255,0,255);
+			/*rgba color*/
+			background-color:rgba(255,0,255,0.25);
+			/*
+			box shadow: x-axis | y-axis | blur | range | color
+			*/
+			 box-shadow: 20px 0px 10px 5px grey; 
+		}
+	</style>
+</head>
+<body>
+      <div class="main">
+      	Hello World!
+      </div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+</head>
+<body>
+       <form>
+        <fieldset>
+          <legend>Enquiry</legend>
+       	Name: <input type="text" name="name" value= "" placeholder= "Please Enter Your Name"/>
+       	<br>
+       	<br>
+       	Address: <textarea name= "address"> </textarea> 
+       	<br>
+       	<br>
+         Gender:
+       	<input type="radio" value= "m" name="grnder"/>male
+         <input type="radio" value= "f" name="grnder"/>female
+         <input type="radio" value= "o" name="grnder"/>other
+         <br>
+         <br>
+         country:
+         
+         <select>
+          <option>Please Select Your Country</option>
+          <optgroup label= "Asia">  
+           <option value= "">Pakistan</option>
+           <option value= "india">india</option>
+           <option>USA</option>
+         </select>
+         <br/>
+         <br/>
+         Hobbies:
+         <input type="checkbox" name="hobbies[]">Dancing
+         <input type="checkbox" name="hobbies[]">Singing
+         <input type="checkbox" name="hobbies[]">Painting
+         <br/>
+         <br/>
+         Image:
+         <input type="file" name="image"/>
+         <br/>
+         <br/>
+         <input type="submit" value= "Send">
+         <input type="reset" value= "reset">
+         </fieldset>
+       </form>
+</body>
+</html>
